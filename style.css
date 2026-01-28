@@ -72,3 +72,55 @@ body {
   font-size: 13px;
   color: #666;
 }
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  margin-right: 8px;
+  background: rgba(255,255,255,0.7);
+}
+
+/* Month accent: a colored top bar + matching title color */
+.card {
+  border-top: 8px solid #0b5cff;
+}
+
+.jan { border-top-color: #2563eb; }
+.feb { border-top-color: #e11d48; }
+.mar { border-top-color: #f59e0b; }
+.apr { border-top-color: #16a34a; }
+.may { border-top-color: #0ea5e9; }
+.jun { border-top-color: #a855f7; }
+.jul { border-top-color: #64748b; }
+.aug { border-top-color: #b45309; }
+.sep { border-top-color: #0891b2; }
+.oct { border-top-color: #f97316; }
+.nov { border-top-color: #92400e; }
+.dec { border-top-color: #dc2626; }
+
+/* Make month title pick up the accent color */
+.jan h2 { color: #2563eb; }
+.feb h2 { color: #e11d48; }
+.mar h2 { color: #f59e0b; }
+.apr h2 { color: #16a34a; }
+.may h2 { color: #0ea5e9; }
+.jun h2 { color: #a855f7; }
+.jul h2 { color: #64748b; }
+.aug h2 { color: #b45309; }
+.sep h2 { color: #0891b2; }
+.oct h2 { color: #f97316; }
+.nov h2 { color: #92400e; }
+.dec h2 { color: #dc2626; }
+
+/* Placeholder cards look different */
+.placeholder {
+  background: #f1f5f9;
+  text-align: center;
+}
+.placeholder p {
+  margin: 10px 0 0;
+  color: #475569;
+}
